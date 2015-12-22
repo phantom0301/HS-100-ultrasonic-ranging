@@ -8,10 +8,10 @@ void UARTSnd(unsigned char dat);
 void UART_init();
 void MeterTempByUART();
 /*******************************************************************************************/
-sbit     dula  = P2^6;         //显示段选锁存控制端
-sbit     wela  = P2^7;         //显示位选锁存控制端
+sbit dula = P2^6;         //显示段选锁存控制端
+sbit wela = P2^7;         //显示位选锁存控制端
 
-uchar     dispbuf[4];            //显示缓冲区
+uchar dispbuf[4];            //显示缓冲区
 uchar idata GLengthLoh[2];    //接收缓冲区 内部可编程256位ram
 
 
